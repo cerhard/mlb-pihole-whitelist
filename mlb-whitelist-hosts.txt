@@ -1,0 +1,25 @@
+#############################################################
+# Title: mlb-whitelist-hosts
+#
+# Purpose
+#  - MLB.tv has some special hosts that need to be 
+#    whitelisted, even though they would normally be 
+#    identified as ad servers.
+#############################################################
+
+# High confidence that these are needed on LG TV app
+imasdk.googleapis.com
+*conviva.com
+*alphonso.tv
+
+# Low confidence these are needed.  They are called by the app,
+# but they seem to be blockable
+# logs.netflix.com
+# aic.recommend.lgtvcommon.com
+# aic-ngfts.lge.com
+# unagi-na.amazon.com
+# ans.mlb.com
+# dpm.demdex.net
+# *lgsmartad.com
+# *omtrdc.net
+
